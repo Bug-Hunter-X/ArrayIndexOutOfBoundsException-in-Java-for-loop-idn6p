@@ -1,0 +1,2 @@
+# ArrayIndexOutOfBoundsException in Java
+This repository demonstrates a common error in Java: the `ArrayIndexOutOfBoundsException`.  The example code iterates through an array using a `for` loop but uses a less-than-or-equal-to operator (`<=`) which causes the loop to try to access an element beyond the array's bounds, resulting in an exception. The solution corrects the loop condition to prevent the error.
